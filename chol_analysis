@@ -1,6 +1,5 @@
 def interface():
-choice = 0
-	while choice != 9:
+	while True:
 		print("Cholesterol Calc")
 		print("options")
 		print("   9- Quit")
