@@ -1,10 +1,20 @@
+def HDLanalysis(HDL_level):
+	if HDLanalysis >= 60:
+		return "normal"
+	elif 40 <= HDL_level < 60:
+		return "Borderline Low"
+	else:
+		return "low"
 
-def cholesterol_analysis()
+
+
+def cholesterol_analysis():
 	print("Cholesterol Analysis")
 	HDLinput = input("Enter test results: ")
 	test_info = HDLinput.split("=")
 	if test_info[0] == "HDL":
-		HDLanalysis()
+		answer = HDLanalysis(int(test_info[1]))
+		print(" The level is {}".format(answer))
 
 
 def interface():
