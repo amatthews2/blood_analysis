@@ -44,5 +44,9 @@ def interface():
 			cholesterol_analysis()
 	
 	
+def name_function
+	first_name = input("first")
+	last_name = input("last")
+	return first_name, last_name
 if __name__ == "__main__":
 	interface()
