@@ -45,8 +45,8 @@ def interface():
 	
 	
 def name_function
-	first_name = "Anna"
-	last_name = "Matthews"
-	return
+	first_name = input("first")
+	last_name = input("last")
+	return first_name, last_name
 if __name__ == "__main__":
 	interface()
