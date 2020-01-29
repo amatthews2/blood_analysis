@@ -1,3 +1,8 @@
+def new_feature():
+	pass
+
+
+
 def HDLanalysis(HDL_level):
 	if HDL_level >= 60:
 		return "normal"
